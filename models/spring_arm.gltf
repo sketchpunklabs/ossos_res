@@ -1,0 +1,399 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "bodyRef"
+        },
+        {
+            "name" : "SpringPnts",
+            "translation" : [
+                0,
+                0.03999999910593033,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "BaseBottom"
+        },
+        {
+            "mesh" : 2,
+            "name" : "BaseTop",
+            "translation" : [
+                0,
+                0.46000000834465027,
+                0
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Rod",
+            "translation" : [
+                0,
+                0.03999999910593033,
+                0
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "SpringCurv",
+            "translation" : [
+                0,
+                0.03999999910593033,
+                0
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "SpringMesh",
+            "translation" : [
+                0,
+                0.03999999910593033,
+                0
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        },
+        {
+            "name" : "BaseBottom",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5
+                }
+            ]
+        },
+        {
+            "name" : "BaseTop",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 5
+                }
+            ]
+        },
+        {
+            "name" : "Rod",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9
+                    },
+                    "indices" : 5
+                }
+            ]
+        },
+        {
+            "name" : "Spring.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11
+                    },
+                    "indices" : 12
+                }
+            ]
+        },
+        {
+            "name" : "SpringMesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 13,
+                        "NORMAL" : 14
+                    },
+                    "indices" : 12
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 736,
+            "max" : [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "min" : [
+                -0.4999999701976776,
+                -0.5,
+                -0.5
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 736,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 1056,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 66,
+            "max" : [
+                0.08000000566244125,
+                0.03999999910593033,
+                0.08000000566244125
+            ],
+            "min" : [
+                -0.08000000566244125,
+                -5.960464477539063e-08,
+                -0.08000000566244125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 192,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 66,
+            "max" : [
+                0.08000000566244125,
+                0.03999999910593033,
+                0.08000000566244125
+            ],
+            "min" : [
+                -0.08000000566244125,
+                -5.960464477539063e-08,
+                -0.08000000566244125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 66,
+            "max" : [
+                0.020000001415610313,
+                0.4199999272823334,
+                0.020000001415610313
+            ],
+            "min" : [
+                -0.020000001415610313,
+                0,
+                -0.020000001415610313
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 1074,
+            "max" : [
+                0.06720689684152603,
+                0.41994157433509827,
+                0.06716306507587433
+            ],
+            "min" : [
+                -0.06720533221960068,
+                -0.0004627211019396782,
+                -0.06718805432319641
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 1074,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5123,
+            "count" : 6360,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 1074,
+            "max" : [
+                0.06720689684152603,
+                0.41994157433509827,
+                0.06716306507587433
+            ],
+            "min" : [
+                -0.06720533221960068,
+                -0.0004627211019396782,
+                -0.06718805432319641
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 1074,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 8832,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8832,
+            "byteOffset" : 8832,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2112,
+            "byteOffset" : 17664,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 19776,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 20568,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 21360,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 21744,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 22536,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 23328,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 792,
+            "byteOffset" : 24120,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12888,
+            "byteOffset" : 24912,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12888,
+            "byteOffset" : 37800,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12720,
+            "byteOffset" : 50688,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12888,
+            "byteOffset" : 63408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12888,
+            "byteOffset" : 76296,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 89184,
+            "uri" : "spring_arm.bin"
+        }
+    ]
+}
