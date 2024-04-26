@@ -1120,12 +1120,15 @@
     ],
     "materials" : [
         {
-            "doubleSided" : true,
+            "doubleSided" : false,
             "name" : "SkinAr_Mat",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.8000000715255737,
+                    0.8000000715255737,
+                    0.12643679976463318
+                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -1149,19 +1152,7 @@
             ]
         }
     ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "krstoslav_low_SkinMaterial_AlbedoTranspare",
-            "uri" : "krstoslav_low_SkinMaterial_AlbedoTranspare.png"
-        }
-    ],
+
     "skins" : [
         {
             "inverseBindMatrices" : 6,
