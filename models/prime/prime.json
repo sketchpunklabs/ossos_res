@@ -1,0 +1,10 @@
+{
+    "name"          : "Prime",
+    "src"           : "prime.gltf",
+    "skinIndex"     : 0,
+    "meshName"      : "Main",
+    "textureYFlip"  : false,
+    "tpose"         : { "type": "animation", "name": "TPose", "frame": 0 },
+    "mainChains"    : null,
+    "extraChains"   : null
+}

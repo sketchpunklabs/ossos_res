@@ -1,0 +1,13 @@
+{
+    "name"          : "AtSt",
+    "src"           : "atst.gltf",
+    "skinIndex"     : 0,
+    "meshName"      : "atst",
+    "textureYFlip"  : false,
+    "tpose"         : { "type": "animation", "name": "TPose", "frame": 0 },
+    "mainChains"    : [
+        { "name": "hip",    "boneNames":[ "Hip" ] },
+        { "name": "leg_l",  "boneNames":[ "leg.L.0", "leg.L.1", "leg.L.2", "foot.L" ], "solver": "trapezoid", "useBindLen": true }
+    ],
+    "extraChains"   : null
+}
